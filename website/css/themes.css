@@ -47,7 +47,7 @@
 [data-variation=considered] .steps { gap: 50px; }
 [data-variation=considered] .steps li { flex-direction: column; gap: 21px; border-top: 2px solid var(--lilac); padding-top: 20px; }
 [data-variation=considered] .step-number { background: transparent; border: 1px solid #CBBBDD; border-radius: 50%; }
-[data-variation=considered] .card { border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 27px 0; }
+[data-variation=considered] .card { border: 0; border-top: 1px solid var(--line); border-radius: var(--radius); }
 [data-variation=considered] .card .icon-disc { background: transparent; border: 1px solid var(--line); }
 [data-variation=considered] .treatment-tile { border: 0; border-radius: 4px; }
 [data-variation=considered] .questions-section { background: white; border-top: 1px solid var(--line); }

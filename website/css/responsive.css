@@ -1,14 +1,13 @@
 @media (max-width: 1150px) {
+  :root { --panel-padding: 28px; --card-padding: 28px; }
   .container { width: calc(100% - 60px); }
   .site-nav { gap: 20px; font-size: 12px; }
   .hero-grid, [data-variation=guided] .hero-grid, [data-variation=considered] .hero-grid { gap: 46px; }
   .hero-copy h1 { font-size: 58px; }
   .two-column { gap: 50px; }
-  .card { padding: 25px; }
   .card-grid { gap: 16px; }
   .footer-grid { gap: 30px; }
   .match-layout { gap: 30px; grid-template-columns: minmax(0,1.75fr) minmax(0,1fr); }
-  .form-aside { padding: 27px; }
   .choice-card { gap: 9px; padding-inline: 13px; }
 }
 @media (max-width: 940px) {
@@ -21,9 +20,7 @@
   .hero-grid, [data-variation=guided] .hero-grid, [data-variation=considered] .hero-grid { gap: 32px; grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
   .hero-copy h1, [data-variation=guided] .hero-copy h1, [data-variation=considered] .hero-copy h1 { font-size: 48px; }
   .hero-copy .lead { font-size: 15px; }
-  .concern-panel, .quick-start { padding: 25px; }
   .concern-options button { padding: 13px; font-size: 11px; }
-  .concern-response { min-height: 185px; }
   .section-head { align-items: start; gap: 30px; }
   .section-head h2 { font-size: 33px; }
   .section-intro { max-width: 270px; font-size: 13px; }
@@ -32,13 +29,11 @@
   .steps h3 { font-size: 16px; }
   .two-column { gap: 35px; }
   .treatment-tile { padding: 18px; }
-  .card { padding: 23px; }
   .card h3 { font-size: 17px; }
   .card p { font-size: 13px; }
   .card .text-link { font-size: 11px; }
   .footer-grid { gap: 25px; }
   .footer-grid h2 { font-size: 11px; }
-  .footer-grid > div:not(.footer-brand) > a { font-size: 11px; }
   .match-layout { grid-template-columns: minmax(0,1fr); max-width: 750px; margin-inline: auto; }
   .match-heading { margin-inline: auto; }
   .form-aside { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 0 35px; }
@@ -66,8 +61,6 @@
   .hero-copy .lead { max-width: 540px; font-size: 16px; }
   .hero-copy .eyebrow { margin-bottom: 19px; }
   .hero-reassurance { margin-top: 27px; }
-  .concern-panel, .quick-start { padding: 30px; }
-  .concern-response { min-height: 135px; }
   .role-band-inner { align-items: start; gap: 16px; flex-direction: column; }
   .section-head { flex-direction: column; gap: 18px; }
   .section-intro { max-width: 540px; font-size: 14px; }
@@ -80,14 +73,12 @@
   .section-copy h2 { font-size: 35px; }
   .section-copy > p:not(.eyebrow) { max-width: 580px; }
   .three-up { grid-template-columns: minmax(0,1fr); }
-  .card { padding: 28px; }
   .card h3 { font-size: 20px; }
   .card p { font-size: 14px; }
   .card .text-link { font-size: 13px; }
   .final-cta-inner { align-items: start; gap: 32px; flex-direction: column; }
   .footer-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 25px 45px; }
   .footer-grid h2 { font-size: 12px; }
-  .footer-grid > div:not(.footer-brand) > a { font-size: 12px; }
   .footer-brand p { font-size: 12px; }
   .footer-location { align-items: start; line-height: 1.7; }
   .footer-location .icon { margin-top: 2px; }
@@ -107,13 +98,14 @@
   .confirmation-card { padding: 38px; }
 }
 @media (max-width: 520px) {
+  :root { --panel-padding: 24px; --card-padding: 24px; }
   .container { width: calc(100% - 36px); }
   .section { padding-block: 53px; }
   .preview-inner { min-height: 53px; }
   .variation-long { display: none; }
   .variation-short { display: inline; }
   .variation-switch { gap: 5px; padding-block: 7px; justify-content: space-between; }
-  .variation-switch button { padding: 7px 8px; min-height: 39px; gap: 6px; flex: 1; justify-content: center; font-size: 10px; }
+  .variation-switch button { padding: 7px 8px; min-height: 44px; gap: 6px; flex: 1; justify-content: center; font-size: 10px; }
   .variation-number { width: 17px; height: 17px; font-size: 9px; flex-shrink: 0; }
   .header-inner, [data-variation=considered] .header-inner { min-height: 88px; }
   .brand-logo { width: 89px; height: 65px; }
@@ -125,47 +117,46 @@
   .hero-actions { gap: 17px; margin-top: 24px; }
   .hero-actions .button { min-height: 51px; font-size: 13px; padding-inline: 21px; }
   .hero-actions .quiet-link { font-size: 12px; }
-  .hero-reassurance { gap: 13px; font-size: 10px; margin-top: 24px; }
+  .hero-reassurance { gap: 13px; font-size: 11px; margin-top: 24px; }
   .hero-grid { gap: 31px !important; }
-  .concern-panel, .quick-start { padding: 23px; }
   .concern-panel h2, .quick-start h2 { font-size: 24px; }
   .panel-heading .eyebrow { font-size: 8px; }
   .panel-heading .icon { width: 19px; height: 19px; flex-basis: 19px; }
-  .concern-options button { min-height: 88px; font-size: 11px; padding: 13px; }
-  .concern-response { padding: 17px; min-height: 164px; }
-  .concern-response .response-heading { font-size: 13px; }
-  .concern-response p { font-size: 11px; }
-  .role-band p { font-size: 11px; }
-  .role-band strong { font-size: 13px; }
-  .role-band .text-link { font-size: 11px; }
+  .concern-options button { min-height: 100px; font-size: 13px; padding: 16px; }
+  .concern-response .response-heading { font-size: 14px; }
+  .concern-response p { font-size: 14px; line-height: 1.75; }
+  .panel-foot { font-size: 12px; }
+  .role-band p { font-size: 13px; }
+  .role-band strong { font-size: 14px; }
+  .role-band .text-link { font-size: 13px; }
   .section-head h2 { font-size: 30px; }
   .section-intro { font-size: 13px; }
   .section-head { margin-bottom: 28px; }
   .steps h3 { font-size: 17px; }
-  .steps p { font-size: 13px; }
+  .steps p { font-size: 14px; }
   [data-variation=welcome] .process-section .steps li { padding: 23px 20px; gap: 15px; }
   .step-number { width: 33px; height: 33px; flex-basis: 33px; }
   .section-copy h2 { font-size: 31px; }
   .section-copy > p:not(.eyebrow) { font-size: 14px; }
   .treatment-grid { gap: 11px; }
-  .treatment-tile { padding: 19px 16px; }
+  .treatment-tile { padding: 20px; }
   .treatment-tile h3 { font-size: 14px; }
-  .treatment-tile p { font-size: 11px; }
+  .treatment-tile p { font-size: 13px; }
+  .treatment-tile .text-link { font-size: 13px; }
   .handwritten-note { font-size: 21px; }
-  .card { padding: 25px; }
   .card h3 { font-size: 18px; }
-  .card p { font-size: 13px; }
-  .card .text-link { font-size: 12px; }
+  .card p { font-size: 14px; }
+  .card .text-link { font-size: 13px; }
   .accordion summary { padding-block: 23px; font-size: 14px; gap: 19px; }
-  .accordion-answer { font-size: 13px; padding-right: 17px; }
+  .accordion-answer { font-size: 14px; padding-right: 17px; }
+  .accordion + .callout { margin-top: 24px; }
   .final-cta { padding-block: 49px; }
   .final-cta h2 { font-size: 36px; }
   .final-cta p:not(.eyebrow) { font-size: 13px; }
   .footer-grid { gap: 30px 23px; }
-  .footer-location { font-size: 9px; }
-  .footer-brand p { font-size: 11px; }
-  .footer-grid h2 { font-size: 11px; }
-  .footer-grid > div:not(.footer-brand) > a { font-size: 11px; }
+  .footer-location { font-size: 11px; }
+  .footer-brand p { font-size: 12px; }
+  .footer-grid h2 { font-size: 12px; margin-bottom: 12px; }
   .footer-role { font-size: 10px; }
   .footer-bottom { flex-direction: column; gap: 8px; margin-top: 34px; }
   .breadcrumb { padding-block: 19px; font-size: 10px; }
@@ -180,63 +171,69 @@
   .callout { padding: 23px 20px; gap: 14px; }
   .callout .icon-disc { width: 35px; height: 35px; flex-basis: 35px; }
   .callout h3 { font-size: 15px; }
-  .callout p { font-size: 12px; }
+  .callout p { font-size: 14px; }
   .callout .icon { width: 20px; height: 20px; }
-  .principle-stack .card { gap: 0 15px; grid-template-columns: 40px minmax(0,1fr); padding: 23px; }
+  .principle-stack .card { gap: 0 16px; grid-template-columns: 40px minmax(0,1fr); }
   .principle-stack .icon-disc { width: 40px; height: 40px; }
   .principle-stack h3 { font-size: 16px; }
-  .principle-stack p { font-size: 12px; }
+  .principle-stack p { font-size: 14px; }
   .match-heading h1 { font-size: 36px; }
   .match-heading > p:not(.eyebrow) { font-size: 13px; }
   .match-layout { gap: 24px; }
-  .form-shell, .contact-layout .form-shell { padding: 22px 19px; }
-  .demo-notice { padding: 13px; gap: 9px; margin-bottom: 24px; }
-  .demo-notice p { font-size: 10px; }
+  .demo-notice { padding: 16px; gap: 10px; margin-bottom: 24px; }
+  .demo-notice p { font-size: 12px; }
   .form-progress { gap: 5px; margin-bottom: 29px; }
-  .form-progress small { font-size: 8px; }
+  .form-progress small { font-size: 10px; }
   .form-heading h2 { font-size: 24px; }
-  .form-heading > p:not(.eyebrow) { font-size: 12px; }
+  .form-heading > p:not(.eyebrow) { font-size: 14px; }
   .choice-grid { grid-template-columns: minmax(0,1fr); }
-  .quick-start .choice-card { min-height: 145px; padding: 13px; }
-  .quick-start .choice-card strong { font-size: 11px; }
+  .quick-start .choice-card { min-height: 148px; padding: 16px; }
+  .quick-start .choice-card strong { font-size: 13px; }
+  .quick-start .choice-card small { font-size: 12px; }
+  .quick-start .small-note { font-size: 12px; }
   .choice-card { padding: 16px; }
-  .choice-card strong { font-size: 12px; }
-  .choice-card small { font-size: 10px; }
+  .choice-card strong { font-size: 14px; }
+  .choice-card small { font-size: 12px; }
+  .choice-fieldset legend, .form-field label { font-size: 14px; }
+  .field-hint, .field-error { font-size: 13px; }
+  .selected-starting-point { padding: 16px; gap: 12px; }
+  .selected-starting-point strong { font-size: 14px; }
   .field-pair { grid-template-columns: minmax(0,1fr); gap: 0; }
   .form-field input, .form-field select, .form-field textarea { font-size: 16px; }
-  .form-actions { gap: 12px; align-items: stretch; }
-  .form-actions .button { font-size: 11px; padding-inline: 14px; gap: 12px; }
-  .form-actions .quiet-link { align-self: center; max-width: 80px; }
-  .form-aside { display: block; padding: 25px; }
+  .form-actions { flex-direction: column-reverse; gap: 12px; align-items: stretch; }
+  .form-actions .button { font-size: 14px; padding-inline: 16px; gap: 16px; }
+  .form-actions .quiet-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 13px; }
+  .form-aside { display: block; }
   .form-aside h2 { font-size: 26px; }
+  .form-aside > p { font-size: 14px; }
+  .form-aside .check-list li { font-size: 13px; }
+  .form-aside .aside-help { font-size: 12px; }
   .form-aside .check-list { margin-top: 23px; }
   .form-aside .aside-help { margin-top: 26px; }
   .review-row { grid-template-columns: minmax(0,1fr) auto; gap: 5px 12px; padding-block: 15px; }
-  .review-row dt { grid-column: 1; font-size: 10px; }
-  .review-row dd { grid-column: 1; font-size: 12px; }
-  .review-row button { grid-column: 2; grid-row: span 2; font-size: 11px; }
-  .consent-field label { font-size: 11px; }
+  .review-row dt { grid-column: 1; grid-row: 1; font-size: 12px; }
+  .review-row dd { grid-column: 1; grid-row: 2; font-size: 14px; }
+  .review-row button { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-size: 13px; }
+  .consent-field label { font-size: 14px; }
   .confirmation-card { padding: 28px 22px; }
   .confirmation-card h1 { font-size: 33px; }
-  .confirmation-card .lead { font-size: 13px; }
-  .confirmation-next { padding: 19px; }
+  .confirmation-card .lead { font-size: 14px; }
+  .confirmation-next { padding: 20px; }
   .confirmation-next h2 { font-size: 16px; }
-  .confirmation-next p { font-size: 12px; }
+  .confirmation-next p { font-size: 14px; }
   .confirmation-actions { flex-direction: column; }
   .confirmation-summary .review-row { grid-template-columns: minmax(0,1fr); }
 }
 @media (max-width: 350px) {
+  :root { --panel-padding: 20px; --card-padding: 20px; }
   .container { width: calc(100% - 30px); }
   .variation-switch button { font-size: 9px; padding-inline: 5px; gap: 5px; }
   .hero-copy h1, [data-variation=guided] .hero-copy h1, [data-variation=considered] .hero-copy h1 { font-size: 38px; }
   .hero-reassurance { font-size: 9px; gap: 12px; }
-  .concern-panel, .quick-start { padding: 19px; }
-  .concern-options button { font-size: 10px; }
-  .quick-start .choice-card { padding: 12px; }
-  .quick-start .choice-card strong { font-size: 10px; }
-  .quick-start .choice-card small { font-size: 9px; }
+  .concern-options { grid-template-columns: minmax(0,1fr); }
+  .concern-options button { min-height: 64px; flex-direction: row; align-items: center; }
+  .quick-start .choice-compact .choice-grid { grid-template-columns: minmax(0,1fr); }
+  .quick-start .choice-card { padding: 16px; min-height: 120px; }
   .treatment-grid { grid-template-columns: minmax(0,1fr); }
   .treatment-tile { padding: 23px; }
-  .form-shell { padding-inline: 16px; }
-  .form-actions .button { font-size: 10px; gap: 9px; padding-inline: 13px; }
 }

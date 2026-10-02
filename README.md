@@ -19,6 +19,8 @@ No answers are written to browser storage.
 
 [Read the visual critique](https://agadgil-sap.github.io/dm-themes/dental-match-website-review.html) for the recommendation, tradeoffs and verification evidence.
 The design direction and component plan are recorded in [website/DESIGN.md](website/DESIGN.md).
+The [second visual review](https://agadgil-sap.github.io/dm-themes/dental-match-website-review.html#visual-polish) includes before-and-after examples of card padding and FAQ spacing.
+The issues, corrections and verification scope are recorded in [website/VISUAL-REVIEW.md](website/VISUAL-REVIEW.md).
 
 ## Website sources and verification
 

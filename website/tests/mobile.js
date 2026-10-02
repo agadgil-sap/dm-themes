@@ -28,6 +28,14 @@ for (const variation of ['welcome', 'guided', 'considered']) {
   await page.click('#match-form button[type=submit]');
   await page.wait('input[name=consent]');
   assert(await page.eval(() => document.documentElement.scrollWidth <= innerWidth), variation + ': review overflow');
+  assert(await page.eval(() => {
+    const row = document.querySelector('.review-list .review-row');
+    const label = row.querySelector('dt').getBoundingClientRect();
+    const value = row.querySelector('dd').getBoundingClientRect();
+    const edit = row.querySelector('button').getBoundingClientRect();
+    return Math.abs((edit.top + edit.bottom) / 2 - (label.top + value.bottom) / 2) < 2;
+  }), variation + ': review edit action is centred on its label and value');
+  assert(await page.eval(() => [...document.querySelectorAll('.form-actions .button')].every(button => button.getBoundingClientRect().height >= 44)), variation + ': form actions have usable touch targets');
   await page.click('input[name=consent]');
   await page.click('#match-form button[type=submit]');
   await page.wait('.confirmation-card');

@@ -11,6 +11,8 @@
   --white: #FFFFFF;
   --radius: 20px;
   --radius-small: 11px;
+  --panel-padding: 32px;
+  --card-padding: 30px;
   --display: 'Manrope', Arial, sans-serif;
   --body: 'DM Sans', Arial, sans-serif;
   --shadow: 0 14px 45px #30204A0A;
