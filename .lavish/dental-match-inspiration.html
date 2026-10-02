@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en-AU" data-theme="winter">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dental Match | Brand inspiration</title>
+  <meta name="description" content="Six exploratory brand directions for Dental Match, an Australian clinic matching and patient support service focused on implants and major treatment.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/daisyui.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@5.5.19/themes.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.4/dist/index.global.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Bree+Serif&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root { color-scheme: light; --color-primary: #254B43; --color-primary-content: #FFFFFF; }
+    body { margin: 0; font-family: 'DM Sans', sans-serif; background: var(--color-base-200, #f4f6f9); color: var(--color-base-content, #253044); }
+    button, input, textarea { font: inherit; }
+    a { text-underline-offset: 4px; }
+    a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #7960B6; outline-offset: 4px; }
+    h1, h2, h3, p, figure { margin: 0; }
+    p { line-height: 1.6; }
+    img, svg { display: block; max-width: 100%; height: auto; }
+    .shell { max-width: 1280px; margin-inline: auto; padding-inline: 32px; }
+    .topbar { background: var(--color-base-100, white); border-bottom: 1px solid color-mix(in srgb, var(--color-base-content) 13%, transparent); }
+    .topbar-inner { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .studio-name { font-size: 17px; font-weight: 700; letter-spacing: -.4px; }
+    .studio-name small { display: block; font-weight: 400; font-size: 12px; letter-spacing: .1px; opacity: .7; margin-top: 2px; }
+    .topbar nav { display: flex; gap: 22px; font-size: 13px; flex-wrap: wrap; }
+    .topbar a { text-decoration: none; }
+    .topbar a:hover { text-decoration: underline; }
+    .intro { padding-block: 52px 32px; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 60px; align-items: end; }
+    .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; opacity: .65; }
+    h1 { font-family: 'Manrope', sans-serif; font-size: clamp(32px, 4vw, 48px); font-weight: 700; letter-spacing: -1.8px; line-height: 1.14; margin-top: 14px; max-width: 650px; }
+    .intro-copy { font-size: 16px; max-width: 480px; margin-top: 20px; }
+    .brief { display: grid; gap: 14px; padding-bottom: 3px; }
+    .brief div { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 15px; font-size: 13px; line-height: 1.55; }
+    .brief dt { opacity: .64; }
+    .brief dd { margin: 0; font-weight: 500; }
+    .recommendation { padding: 19px 24px; background: #E6F0EB; border: 1px solid #CEDDD5; border-radius: 12px; display: flex; align-items: start; gap: 16px; margin-bottom: 38px; color: #24473E; }
+    .recommendation .icon { flex: 0 0 32px; padding-top: 3px; }
+    .recommendation p { font-size: 14px; max-width: 900px; }
+    .recommendation strong { font-weight: 700; }
+    .patient-context { padding: 25px; background: var(--color-base-100, white); border: 1px solid color-mix(in srgb, var(--color-base-content) 14%, transparent); border-radius: 12px; margin-bottom: 35px; }
+    .patient-context h2 { font-size: 20px; margin-bottom: 14px; }
+    .barriers { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 17px; }
+    .barriers span { font-size: 11px; padding: 6px 11px; border: 1px solid color-mix(in srgb, var(--color-base-content) 15%, transparent); border-radius: 100px; }
+    .patient-context p { font-size: 12px; }
+    .overview { margin-bottom: 48px; }
+    .lineup { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .tile { min-width: 0; min-height: 242px; padding: 23px; display: flex; flex-direction: column; border-radius: 12px; border: 1px solid #00000015; text-decoration: none; position: relative; transition: transform .15s; }
+    .tile:hover { transform: translateY(-3px); }
+    .tile-label { font-size: 12px; font-weight: 600; }
+    .tile-headline { font-size: 30px; line-height: 1.2; letter-spacing: -1px; margin-block: auto; padding-block: 20px; }
+    .tile-foot { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 12px; font-weight: 600; }
+    .tile-palette { display: flex; gap: 5px; }
+    .tile-palette i { width: 15px; height: 15px; display: block; border-radius: 50%; border: 1px solid #00000018; }
+    .tile-a { color: #254B43; background: #F1F6F1; }
+    .tile-a .tile-headline { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; }
+    .tile-b { color: #463276; background: #F4F0FB; }
+    .tile-b .tile-headline { font-family: 'Manrope', sans-serif; font-weight: 800; }
+    .tile-c { color: #EDF3F6; background: #1E3549; }
+    .tile-c .tile-headline { font-family: 'Lora', serif; }
+    .tile-d { color: #553A32; background: #F3E6D9; }
+    .tile-d .tile-headline { font-family: 'Bree Serif', serif; font-weight: 400; }
+    .tile-e { color: #8F2F24; background: #FFE1D6; }
+    .tile-e .tile-headline { font-family: 'Barlow Condensed', sans-serif; text-transform: uppercase; font-size: 43px; font-weight: 700; line-height: 1; letter-spacing: -.2px; }
+    .tile-f { color: #173443; background: #FFFFFF; border-color: #B3DADF; border-radius: 3px; }
+    .tile-f .tile-headline { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; }
+    .new-row { margin-top: 48px; }
+    .new-row .concept { min-height: 560px; }
+    .new-row .sample-title { min-height: 99px; }
+    .new-row .type-sample { min-height: 41px; display: flex; align-items: center; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 20px; }
+    h2 { font-family: 'Manrope', sans-serif; font-size: 26px; letter-spacing: -.8px; font-weight: 700; }
+    .section-head p { font-size: 13px; opacity: .7; max-width: 440px; }
+    .directions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+    .direction { min-width: 0; border: 1px solid color-mix(in srgb, var(--color-base-content) 14%, transparent); border-radius: 15px; background: var(--color-base-100, white); overflow: hidden; display: flex; flex-direction: column; transition: border-color .15s, box-shadow .15s; }
+    .direction.is-selected { border-color: #466D5D; box-shadow: 0 0 0 2px #466D5D; }
+    .direction-heading { padding: 20px 22px; min-height: 104px; }
+    .route-letter { font-weight: 700; font-size: 12px; opacity: .55; letter-spacing: 1px; }
+    .direction-heading h3 { font-size: 20px; font-weight: 700; letter-spacing: -.45px; margin-top: 7px; }
+    .direction-heading p { font-size: 12px; margin-top: 4px; opacity: .65; }
+    .concept { padding: 26px 26px 22px; display: flex; flex-direction: column; min-height: 525px; position: relative; overflow: hidden; }
+    .concept-a { --ink: #254B43; --paper: #F1F6F1; --accent: #F1C4AA; background: var(--paper); color: var(--ink); }
+    .concept-b { --ink: #463276; --paper: #F4F0FB; --accent: #C7B7EC; background: var(--paper); color: var(--ink); }
+    .concept-c { --ink: #1E3549; --paper: #EDF3F6; --accent: #BCA57A; background: var(--ink); color: var(--paper); }
+    .concept-d { --ink: #553A32; --paper: #F3E6D9; --accent: #C39958; background: var(--paper); color: var(--ink); }
+    .concept-e { --ink: #8F2F24; --paper: #FFE1D6; --accent: #D94F36; background: var(--paper); color: var(--ink); border-top: 7px solid #D94F36; padding-top: 19px; }
+    .concept-f { --ink: #173443; --paper: #FFFFFF; --accent: #007A82; background: var(--paper); color: var(--ink); border-block: 1px solid #B3DADF; }
+    .wordmark { display: flex; align-items: center; gap: 9px; font-size: 19px; font-weight: 700; white-space: nowrap; letter-spacing: -.7px; }
+    .wordmark svg { width: 34px; flex: 0 0 34px; }
+    .concept-a .wordmark, .concept-a .sample-title { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .concept-b .wordmark, .concept-b .sample-title { font-family: 'Manrope', sans-serif; }
+    .concept-c .wordmark { font-family: 'Lora', serif; font-weight: 500; letter-spacing: -.6px; }
+    .concept-d .wordmark, .concept-d .sample-title { font-family: 'Bree Serif', serif; font-weight: 400; }
+    .concept-e .wordmark { font-family: 'Barlow Condensed', sans-serif; font-size: 25px; text-transform: uppercase; letter-spacing: .2px; font-weight: 700; }
+    .concept-f .wordmark, .concept-f .sample-title { font-family: 'IBM Plex Sans', sans-serif; }
+    .sample-kicker { font-size: 10px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase; margin-top: 36px; opacity: .8; }
+    .sample-title { font-size: 35px; line-height: 1.18; letter-spacing: -1.4px; font-weight: 700; margin-top: 12px; }
+    .concept-b .sample-title { font-weight: 800; }
+    .concept-c .sample-title { font-family: 'Lora', serif; font-size: 34px; line-height: 1.22; font-weight: 400; letter-spacing: -.8px; }
+    .concept-d .sample-title { font-size: 35px; letter-spacing: -.5px; line-height: 1.2; }
+    .concept-e .sample-title { font-family: 'Barlow Condensed', sans-serif; font-size: 49px; font-weight: 700; text-transform: uppercase; letter-spacing: -.2px; line-height: .98; }
+    .concept-f .sample-title { font-size: 35px; font-weight: 600; letter-spacing: -.8px; }
+    .sample-description { font-size: 13px; margin-top: 16px; line-height: 1.7; min-height: 67px; }
+    .sample-cta { margin-top: 22px; background: var(--ink); color: var(--paper); border-radius: 100px; padding: 12px 20px; font-size: 12px; font-weight: 700; display: inline-flex; align-self: start; align-items: center; gap: 24px; }
+    .concept-b .sample-cta { border-radius: 9px; }
+    .concept-c .sample-cta { background: #EDF3F6; color: #1E3549; border-radius: 3px; }
+    .concept-d .sample-cta { border-radius: 6px 18px 6px 18px; }
+    .concept-e .sample-cta { border-radius: 4px; }
+    .concept-f .sample-cta { background: #007A82; color: white; border-radius: 3px; }
+    .concept-f .sample-kicker { color: #007A82; }
+    .sample-cta svg { width: 17px; }
+    .signature { margin-top: auto; padding-top: 20px; height: 118px; display: flex; gap: 14px; align-items: center; }
+    .signature svg { width: 80px; flex: 0 0 80px; }
+    .signature p { font-size: 11px; line-height: 1.55; max-width: 140px; }
+    .concept-caption { font-size: 10px; opacity: .7; padding-top: 14px; border-top: 1px solid currentColor; }
+    .direction-details { padding: 23px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+    .palette { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 22px; }
+    .swatch { border-radius: 7px; height: 40px; border: 1px solid #00000012; }
+    .palette figcaption { font-size: 9px; margin-top: 6px; line-height: 1.5; }
+    .palette code { font-family: inherit; font-size: 8px; opacity: .65; white-space: nowrap; }
+    .detail { padding-block: 13px; border-top: 1px solid color-mix(in srgb, var(--color-base-content) 10%, transparent); }
+    .detail dt { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; opacity: .65; margin-bottom: 6px; }
+    .detail dd { font-size: 12px; margin: 0; line-height: 1.6; }
+    .type-sample { display: block; font-size: 20px; margin-bottom: 3px; line-height: 1.5; }
+    .watch { font-size: 11px; opacity: .8; line-height: 1.6; padding-top: 14px; margin-bottom: 22px; }
+    .select-direction { margin-top: auto; display: flex; gap: 10px; align-items: center; font-size: 12px; font-weight: 600; cursor: pointer; padding: 13px 12px; border: 1px solid color-mix(in srgb, var(--color-base-content) 18%, transparent); border-radius: 9px; }
+    .select-direction:has(input:checked) { background: #EEF5F0; border-color: #466D5D; }
+    .select-direction input { flex: 0 0 17px; width: 17px; height: 17px; accent-color: #254B43; }
+    .section { margin-top: 56px; }
+    .references { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+    .reference { min-width: 0; border-radius: 13px; border: 1px solid color-mix(in srgb, var(--color-base-content) 14%, transparent); overflow: hidden; background: var(--color-base-100, white); }
+    .reference-image { display: block; overflow: hidden; background: white; border-bottom: 1px solid #00000012; }
+    .reference-image img { width: 100%; aspect-ratio: 1.44; object-fit: cover; }
+    .reference .card-body { padding: 20px; gap: 8px; }
+    .reference h3 { font-size: 17px; font-weight: 700; }
+    .reference p { font-size: 12px; line-height: 1.6; }
+    .reference .ref-type { font-size: 10px; text-transform: uppercase; letter-spacing: .8px; opacity: .6; }
+    .reference .ref-link { font-size: 12px; margin-top: 4px; font-weight: 600; }
+    .source-note { font-size: 11px; opacity: .65; margin-top: 14px; }
+    .feedback { margin-top: 52px; background: var(--color-base-100, white); border: 1px solid color-mix(in srgb, var(--color-base-content) 14%, transparent); border-radius: 15px; padding: 32px; }
+    .feedback-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 48px; }
+    .feedback p { font-size: 13px; margin-top: 14px; }
+    .feedback .steps-copy { margin-top: 24px; font-size: 12px; padding-left: 18px; line-height: 1.7; }
+    .feedback .steps-copy li + li { margin-top: 8px; }
+    .feedback-fields { display: grid; gap: 15px; }
+    .feedback-fields label { font-size: 12px; font-weight: 600; display: block; margin-bottom: 7px; }
+    .feedback textarea { display: block; width: 100%; min-height: 108px; padding: 13px; border-radius: 9px; resize: vertical; border: 1px solid color-mix(in srgb, var(--color-base-content) 20%, transparent); background: var(--color-base-100, white); font-size: 13px; line-height: 1.6; }
+    .selected-status { font-size: 12px; line-height: 1.6; min-height: 20px; }
+    .feedback-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .feedback-actions .btn { font-size: 12px; min-height: 43px; }
+    .form-message { font-size: 12px; color: #254B43; min-height: 24px; }
+    .mix-label { display: flex !important; align-items: center; gap: 10px; cursor: pointer; font-weight: 500 !important; }
+    .mix-label input { accent-color: #254B43; width: 17px; height: 17px; }
+    .reply-preview { padding: 15px; background: var(--color-base-200, #f4f6f9); border-radius: 9px; font-size: 12px; line-height: 1.7; white-space: pre-wrap; }
+    footer { display: flex; justify-content: space-between; gap: 20px; padding-block: 26px 34px; font-size: 10px; opacity: .65; }
+    .grid > *, .intro > *, .feedback-grid > *, .brief > *, .references > *, .directions > *, .lineup > * { min-width: 0; }
+    h1, h2, h3, p, dd, label { overflow-wrap: break-word; }
+    @media (max-width: 1100px) {
+      .shell { padding-inline: 24px; }
+      .directions, .references { gap: 14px; }
+      .concept { padding: 24px 20px 20px; }
+      .direction-details, .direction-heading { padding-inline: 18px; }
+      .sample-title, .concept-c .sample-title { font-size: 30px; }
+      .concept-d .sample-title, .concept-f .sample-title { font-size: 30px; }
+      .concept-e .sample-title { font-size: 44px; }
+      .wordmark { font-size: 17px; }
+      .wordmark svg { flex-basis: 29px; width: 29px; }
+    }
+    @media (max-width: 850px) {
+      .intro { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 38px; }
+      .brief { border-top: 1px solid #00000018; padding-top: 22px; }
+      .directions { grid-template-columns: minmax(0, 1fr); max-width: 550px; margin-inline: auto; gap: 25px; }
+      .concept { min-height: 495px; padding: 30px; }
+      .sample-title, .concept-c .sample-title { font-size: 42px; max-width: 340px; }
+      .sample-description { max-width: 350px; }
+      .wordmark { font-size: 23px; }
+      .wordmark svg { flex-basis: 36px; width: 36px; }
+      .direction-details, .direction-heading { padding-inline: 28px; }
+      .feedback-grid { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+      .references { grid-template-columns: minmax(0, 1fr); max-width: 550px; margin-inline: auto; gap: 20px; }
+      .reference .card-body { padding: 24px; }
+      .section-head { align-items: start; flex-direction: column; gap: 9px; }
+      .topbar nav { gap: 14px; font-size: 12px; }
+      .lineup { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .concept-d .sample-title, .concept-f .sample-title { font-size: 42px; max-width: 360px; }
+      .concept-e .sample-title { font-size: 55px; }
+      footer { flex-direction: column; gap: 8px; }
+    }
+    @media (max-width: 480px) {
+      .shell { padding-inline: 18px; }
+      .topbar-inner { min-height: 76px; gap: 12px; flex-wrap: wrap; padding-block: 14px; }
+      .topbar nav { width: 100%; justify-content: space-between; }
+      .lineup { grid-template-columns: minmax(0, 1fr); }
+      .tile { min-height: 220px; }
+      .patient-context { padding: 20px; }
+      h1 { letter-spacing: -1px; font-size: 34px; }
+      .intro-copy { font-size: 14px; }
+      .recommendation { padding: 18px; gap: 10px; }
+      .recommendation .icon { flex-basis: 25px; }
+      .recommendation p { font-size: 12px; }
+      .concept { padding: 25px; min-height: 515px; }
+      .sample-title, .concept-c .sample-title { font-size: 36px; }
+      .concept-d .sample-title, .concept-f .sample-title { font-size: 36px; }
+      .concept-e .sample-title { font-size: 49px; }
+      .direction-details, .direction-heading { padding-inline: 23px; }
+      .feedback { padding: 24px 20px; }
+      .feedback-actions { align-items: stretch; flex-direction: column; }
+      .feedback-actions .btn { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="studio-name">Dental Match <small>Brand exploration / October 2026</small></div>
+      <nav aria-label="Inspiration board"><a href="#overview">All six</a><a href="#new-directions">New directions</a><a href="#feedback">Your feedback</a></nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <div class="eyebrow">Start with the feeling</div>
+        <h1 id="page-title">A calmer first step<br>towards dental care.</h1>
+        <p class="intro-copy">Six ways to make major dental care feel more approachable, understandable and manageable.</p>
+      </div>
+      <dl class="brief">
+        <div><dt>The service</dt><dd>Match patients with clinics in your Australian network, with practical support along the way.</dd></div>
+        <div><dt>The focus</dt><dd>Dental implants and other major dental treatment.</dd></div>
+        <div><dt>The support</dt><dd>Process guidance, funding questions, appointment help and patient follow-up.</dd></div>
+        <div><dt>The priority</dt><dd>Understanding, practical help and patient encouragement.</dd></div>
+        <div><dt>This stage</dt><dd>Explore a look and voice before creating the full identity.</dd></div>
+      </dl>
+    </section>
+    <aside class="recommendation" aria-label="Shared brand foundation">
+      <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m9 16 5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p><strong>Six expressions, one foundation: understanding and practical support.</strong><br>A, B and C remain in the mix. D, E and F explore an earthy, an empowering and a structured identity. Each makes room for fear, cost concerns and the realities of everyday life.</p>
+    </aside>
+    <section class="patient-context" aria-labelledby="patient-context-title">
+      <h2 id="patient-context-title">Real life is part of the brief</h2>
+      <div class="barriers" aria-label="Patient barriers identified in your brief"><span>Fear &amp; anxiety</span><span>Cost</span><span>Family comes first</span><span>Shame</span><span>Inconvenience</span><span>Time off work</span><span>Funding uncertainty</span><span>Dental care feels non-urgent</span></div>
+      <p><strong>Across every direction:</strong> explain options plainly, acknowledge life constraints and make the first step feel manageable. Your team will support patients with the process, funding questions, appointments and follow-up. The first contact may be with Dental Match or a clinic while you test both approaches.</p>
+    </section>
+    <section class="overview" id="overview" aria-labelledby="overview-title">
+      <div class="section-head"><h2 id="overview-title">All six at a glance</h2><p>Choose a tile to jump to its colours, type, logo sketch and sample messaging.</p></div>
+      <div class="lineup">
+        <a href="#route-a" class="tile tile-a"><div class="tile-label">A / Warm reassurance</div><div class="tile-headline">A calmer<br>first step.</div><div class="tile-foot"><span>dental match</span><span class="tile-palette" aria-hidden="true"><i style="background:#254B43"></i><i style="background:#D9E6DB"></i><i style="background:#F1C4AA"></i><i style="background:#F1F6F1"></i></span></div></a>
+        <a href="#route-b" class="tile tile-b"><div class="tile-label">B / Friendly clarity</div><div class="tile-headline">Find your fit.<br>Take your time.</div><div class="tile-foot"><span>dental match</span><span class="tile-palette" aria-hidden="true"><i style="background:#463276"></i><i style="background:#C7B7EC"></i><i style="background:#F5D894"></i><i style="background:#F4F0FB"></i></span></div></a>
+        <a href="#route-c" class="tile tile-c"><div class="tile-label">C / Quiet confidence</div><div class="tile-headline">Move forward<br>with confidence.</div><div class="tile-foot"><span>Dental Match</span><span class="tile-palette" aria-hidden="true"><i style="background:#1E3549"></i><i style="background:#B9CFD8"></i><i style="background:#BCA57A"></i><i style="background:#EDF3F6"></i></span></div></a>
+        <a href="#route-d" class="tile tile-d"><div class="tile-label">D / Grounded care</div><div class="tile-headline">Care that fits<br>real life.</div><div class="tile-foot"><span>Dental Match</span><span class="tile-palette" aria-hidden="true"><i style="background:#553A32"></i><i style="background:#C39958"></i><i style="background:#5C6653"></i><i style="background:#F3E6D9"></i></span></div></a>
+        <a href="#route-e" class="tile tile-e"><div class="tile-label">E / Positive momentum</div><div class="tile-headline">Make room<br>for you.</div><div class="tile-foot"><span>DENTAL MATCH</span><span class="tile-palette" aria-hidden="true"><i style="background:#8F2F24"></i><i style="background:#D94F36"></i><i style="background:#FFB391"></i><i style="background:#FFE1D6"></i></span></div></a>
+        <a href="#route-f" class="tile tile-f"><div class="tile-label">F / Clear guidance</div><div class="tile-headline">Know your<br>next step.</div><div class="tile-foot"><span>Dental Match</span><span class="tile-palette" aria-hidden="true"><i style="background:#173443"></i><i style="background:#007A82"></i><i style="background:#E2F4F5"></i><i style="background:#FFFFFF"></i></span></div></a>
+      </div>
+    </section>
+    <form id="brand-form" data-lavish-question="dental-match-direction">
+      <section id="directions" aria-labelledby="directions-title">
+        <div class="section-head"><h2 id="directions-title">Your original three directions</h2><p>Warm reassurance, Friendly clarity and Quiet confidence. The looks you already liked, ready to compare with the new options.</p></div>
+        <div class="directions">
+          <article class="direction" id="route-a">
+            <div class="direction-heading"><span class="route-letter">A / WARM &amp; SUPPORTIVE</span><h3>Warm reassurance</h3><p>Human. Gentle. Supportive.</p></div>
+            <div class="concept concept-a" role="img" aria-label="Warm reassurance concept: forest green, pale sage and peach, with rounded typography and a paired arch logo.">
+              <div class="wordmark"><svg viewBox="0 0 42 42" aria-hidden="true"><path d="M7 29V18a9 9 0 0 1 18 0v11M17 29V18a9 9 0 0 1 18 0v11" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/></svg><span>dental match</span></div>
+              <div class="sample-kicker">Implants &amp; major dental care</div>
+              <div class="sample-title">A calmer<br>first step.</div>
+              <p class="sample-description">Considering dental implants? Tell us what matters to you, and we’ll help you connect with a clinic in our Australian network.</p>
+              <span class="sample-cta">Find my match <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div class="signature"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="4" y="4" width="92" height="92" rx="46" fill="#D9E6DB"/><path d="M21 64V43a19 19 0 0 1 38 0v21M42 64V43a19 19 0 0 1 38 0v21" fill="none" stroke="#254B43" stroke-width="6" stroke-linecap="round"/><circle cx="81" cy="24" r="10" fill="#F1C4AA"/></svg><p>Two connected arches.<br>A gentle symbol of finding a fit.</p></div>
+              <div class="concept-caption">Exploratory homepage styling / draft copy</div>
+            </div>
+            <div class="direction-details">
+              <div class="palette" aria-label="Warm reassurance palette">
+                <figure><div class="swatch" style="background:#254B43"></div><figcaption>Forest<br><code>#254B43</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#D9E6DB"></div><figcaption>Sage<br><code>#D9E6DB</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#F1C4AA"></div><figcaption>Peach<br><code>#F1C4AA</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#F1F6F1"></div><figcaption>Soft white<br><code>#F1F6F1</code></figcaption></figure>
+              </div>
+              <dl>
+                <div class="detail"><dt>Typography</dt><dd><span class="type-sample" style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:600">Here for your next step.</span>Plus Jakarta Sans headlines + DM Sans body.</dd></div>
+                <div class="detail"><dt>Voice</dt><dd>“It’s okay to have questions. Start by telling us what matters to you.”</dd></div>
+                <div class="detail"><dt>Photography direction</dt><dd>Relaxed adult portraits, natural light and approachable expressions.</dd></div>
+                <div class="detail"><dt>Why it fits</dt><dd>Makes an intimidating decision feel more approachable.</dd></div>
+              </dl>
+              <p class="watch">Design challenge: give the paired arch mark enough character to make this recognisably Dental Match.</p>
+              <label class="select-direction"><input type="radio" name="direction" value="A - Warm reassurance">Choose Warm reassurance</label>
+            </div>
+          </article>
+          <article class="direction" id="route-b">
+            <div class="direction-heading"><span class="route-letter">B / MORE CONTEMPORARY</span><h3>Friendly clarity</h3><p>Open. Simple. Modern.</p></div>
+            <div class="concept concept-b" role="img" aria-label="Friendly clarity concept: plum and lilac with clean bold typography and a smile-inspired logo.">
+              <div class="wordmark"><svg viewBox="0 0 42 42" aria-hidden="true"><circle cx="11" cy="13" r="4" fill="currentColor"/><circle cx="31" cy="13" r="4" fill="currentColor"/><path d="M8 23q13 18 26 0" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/></svg><span>dental match</span></div>
+              <div class="sample-kicker">Implants &amp; major dental care</div>
+              <div class="sample-title">Find your fit.<br>Take your time.</div>
+              <p class="sample-description">Looking into dental implants? Share your needs and concerns, and find a clinic match in our Australian network.</p>
+              <span class="sample-cta">Find my match <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div class="signature"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="4" y="4" width="92" height="92" rx="24" fill="#E3DAF4"/><circle cx="30" cy="34" r="8" fill="#463276"/><circle cx="70" cy="34" r="8" fill="#463276"/><path d="M24 56q26 34 52 0" fill="none" stroke="#463276" stroke-width="7" stroke-linecap="round"/><circle cx="83" cy="81" r="9" fill="#F5D894"/></svg><p>A friendly smile mark.<br>Clear, familiar and easy to recognise.</p></div>
+              <div class="concept-caption">Exploratory homepage styling / draft copy</div>
+            </div>
+            <div class="direction-details">
+              <div class="palette" aria-label="Friendly clarity palette">
+                <figure><div class="swatch" style="background:#463276"></div><figcaption>Plum<br><code>#463276</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#C7B7EC"></div><figcaption>Lilac<br><code>#C7B7EC</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#F5D894"></div><figcaption>Soft gold<br><code>#F5D894</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#F4F0FB"></div><figcaption>Cloud<br><code>#F4F0FB</code></figcaption></figure>
+              </div>
+              <dl>
+                <div class="detail"><dt>Typography</dt><dd><span class="type-sample" style="font-family:Manrope,sans-serif;font-weight:800">Let’s find your fit.</span>Manrope headlines + DM Sans body.</dd></div>
+                <div class="detail"><dt>Voice</dt><dd>“What are you looking for? We’ll help you take the next step.”</dd></div>
+                <div class="detail"><dt>Photography direction</dt><dd>Bright, candid portraits, with soft backgrounds and everyday clothing.</dd></div>
+                <div class="detail"><dt>Why it fits</dt><dd>Makes the matching process feel straightforward and approachable.</dd></div>
+              </dl>
+              <p class="watch">Design challenge: keep the playful details restrained for people making a serious treatment decision.</p>
+              <label class="select-direction"><input type="radio" name="direction" value="B - Friendly clarity">Choose Friendly clarity</label>
+            </div>
+          </article>
+          <article class="direction" id="route-c">
+            <div class="direction-heading"><span class="route-letter">C / MORE CONSIDERED</span><h3>Quiet confidence</h3><p>Calm. Established. Refined.</p></div>
+            <div class="concept concept-c" role="img" aria-label="Quiet confidence concept: deep navy, mist blue and muted brass, with elegant serif headlines and a matching bracket logo.">
+              <div class="wordmark"><svg viewBox="0 0 42 42" aria-hidden="true"><path d="M15 9H7v24h8M27 9h8v24h-8" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M17 21h8" stroke="#BCA57A" stroke-width="2.4"/></svg><span>Dental Match</span></div>
+              <div class="sample-kicker">Implants &amp; major dental care</div>
+              <div class="sample-title">Move forward<br>with confidence.</div>
+              <p class="sample-description">Find a clinic in our Australian network for implants and major treatment, with your needs at the centre of the match.</p>
+              <span class="sample-cta">Find my match <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div class="signature"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="#607D90"/><path d="M37 27H23v46h14M63 27h14v46H63" fill="none" stroke="#EDF3F6" stroke-width="3"/><path d="M43 50h14" stroke="#BCA57A" stroke-width="3"/></svg><p>Two matching brackets.<br>A precise, considered connection.</p></div>
+              <div class="concept-caption">Exploratory homepage styling / draft copy</div>
+            </div>
+            <div class="direction-details">
+              <div class="palette" aria-label="Quiet confidence palette">
+                <figure><div class="swatch" style="background:#1E3549"></div><figcaption>Deep navy<br><code>#1E3549</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#B9CFD8"></div><figcaption>Mist blue<br><code>#B9CFD8</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#BCA57A"></div><figcaption>Brass<br><code>#BCA57A</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#EDF3F6"></div><figcaption>Ice<br><code>#EDF3F6</code></figcaption></figure>
+              </div>
+              <dl>
+                <div class="detail"><dt>Typography</dt><dd><span class="type-sample" style="font-family:Lora,serif">A considered next step.</span>Lora headlines + DM Sans body.</dd></div>
+                <div class="detail"><dt>Voice</dt><dd>“Explore your next step with a clinic that understands your priorities.”</dd></div>
+                <div class="detail"><dt>Photography direction</dt><dd>Quiet, natural portraits with space, softer light and calm compositions.</dd></div>
+                <div class="detail"><dt>Why it fits</dt><dd>Gives major treatment decisions a sense of care and seriousness.</dd></div>
+              </dl>
+              <p class="watch">Design challenge: preserve warmth so a polished identity still feels welcoming and accessible.</p>
+              <label class="select-direction"><input type="radio" name="direction" value="C - Quiet confidence">Choose Quiet confidence</label>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="new-directions" class="new-row" aria-labelledby="new-directions-title">
+        <div class="section-head"><h2 id="new-directions-title">Three new directions</h2><p>D feels familiar and earthy. E adds energy and encouragement. F leads with structure and practical clarity.</p></div>
+        <div class="directions">
+          <article class="direction" id="route-d">
+            <div class="direction-heading"><span class="route-letter">D / EARTHY &amp; FAMILIAR</span><h3>Grounded care</h3><p>Steady. Personal. Down to earth.</p></div>
+            <div class="concept concept-d" role="img" aria-label="Grounded care concept: cocoa, ochre, olive and sand, with a sturdy soft serif and a circle of support logo.">
+              <div class="wordmark"><svg viewBox="0 0 42 42" aria-hidden="true"><circle cx="21" cy="21" r="18" fill="none" stroke="currentColor" stroke-width="2.3"/><circle cx="16" cy="15" r="4" fill="currentColor"/><circle cx="27" cy="18" r="3.2" fill="#5C6653"/><path d="M9 29a7 7 0 0 1 14 0m1 0a5 5 0 0 1 10 0" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg><span>Dental Match</span></div>
+              <div class="sample-kicker">Implants &amp; major dental care</div>
+              <div class="sample-title">Care that fits<br>real life.</div>
+              <p class="sample-description">Family, work and cost can put dental care on hold. We’ll help with clinic matching and the practical questions around your next step.</p>
+              <span class="sample-cta">Find my match <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div class="signature"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45" fill="#E6D2B5"/><circle cx="50" cy="50" r="37" fill="none" stroke="#553A32" stroke-width="2"/><circle cx="38" cy="37" r="8" fill="#553A32"/><circle cx="63" cy="43" r="6" fill="#5C6653"/><path d="M22 69a16 16 0 0 1 32 0m3 0a11 11 0 0 1 22 0" fill="none" stroke="#553A32" stroke-width="4" stroke-linecap="round"/></svg><p>A small circle of support.<br>Familiar, human and easy to approach.</p></div>
+              <div class="concept-caption">Exploratory homepage styling / draft copy</div>
+            </div>
+            <div class="direction-details">
+              <div class="palette" aria-label="Grounded care palette">
+                <figure><div class="swatch" style="background:#553A32"></div><figcaption>Cocoa<br><code>#553A32</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#C39958"></div><figcaption>Ochre<br><code>#C39958</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#5C6653"></div><figcaption>Olive<br><code>#5C6653</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#F3E6D9"></div><figcaption>Sand<br><code>#F3E6D9</code></figcaption></figure>
+              </div>
+              <dl>
+                <div class="detail"><dt>Typography</dt><dd><span class="type-sample" style="font-family:'Bree Serif',serif">Support for real life.</span>Bree Serif headlines + DM Sans body.</dd></div>
+                <div class="detail"><dt>Voice</dt><dd>“Life gets busy. We’ll help you work through the next step.”</dd></div>
+                <div class="detail"><dt>Photography direction</dt><dd>Everyday settings, family life and relaxed adult portraits with natural textures.</dd></div>
+                <div class="detail"><dt>Why it fits</dt><dd>Acknowledges family priorities, shame and the practical realities that delay care.</dd></div>
+              </dl>
+              <p class="watch">Design challenge: keep the earthy palette crisp and contemporary so the brand still feels capable.</p>
+              <label class="select-direction"><input type="radio" name="direction" value="D - Grounded care">Choose Grounded care</label>
+            </div>
+          </article>
+          <article class="direction" id="route-e">
+            <div class="direction-heading"><span class="route-letter">E / BOLD &amp; ENCOURAGING</span><h3>Positive momentum</h3><p>Upbeat. Capable. On your side.</p></div>
+            <div class="concept concept-e" role="img" aria-label="Positive momentum concept: coral, apricot and blush with bold condensed uppercase typography and forward stroke logo shapes.">
+              <div class="wordmark"><svg viewBox="0 0 42 42" aria-hidden="true"><path d="M4 32 19 10h9L13 32z" fill="currentColor"/><path d="m19 32 15-22h5L24 32z" fill="#D94F36"/></svg><span>Dental Match</span></div>
+              <div class="sample-kicker">Implants &amp; major dental care</div>
+              <div class="sample-title">Make room<br>for you.</div>
+              <p class="sample-description">When work, family or worry have put dental care on hold, we’ll help you explore your options and connect with a clinic in our network.</p>
+              <span class="sample-cta">Find my match <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div class="signature"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45" fill="#FFB391"/><path d="m15 75 33-50h16L31 75z" fill="#8F2F24"/><path d="m46 75 33-50h10L56 75z" fill="#D94F36"/></svg><p>Two forward strokes.<br>A little momentum for the next step.</p></div>
+              <div class="concept-caption">Exploratory homepage styling / draft copy</div>
+            </div>
+            <div class="direction-details">
+              <div class="palette" aria-label="Positive momentum palette">
+                <figure><div class="swatch" style="background:#8F2F24"></div><figcaption>Brick<br><code>#8F2F24</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#D94F36"></div><figcaption>Coral<br><code>#D94F36</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#FFB391"></div><figcaption>Apricot<br><code>#FFB391</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#FFE1D6"></div><figcaption>Blush<br><code>#FFE1D6</code></figcaption></figure>
+              </div>
+              <dl>
+                <div class="detail"><dt>Typography</dt><dd><span class="type-sample" style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:27px;text-transform:uppercase">A step for you.</span>Barlow Condensed headlines + DM Sans body.</dd></div>
+                <div class="detail"><dt>Voice</dt><dd>“You deserve space to consider your own care. Start with a question.”</dd></div>
+                <div class="detail"><dt>Photography direction</dt><dd>People in everyday moments, with warmth, movement and expressive crops.</dd></div>
+                <div class="detail"><dt>Why it fits</dt><dd>Encourages people who put themselves last to explore their own care.</dd></div>
+              </dl>
+              <p class="watch">Design challenge: use the energy with care. The tone should encourage patients at their own pace.</p>
+              <label class="select-direction"><input type="radio" name="direction" value="E - Positive momentum">Choose Positive momentum</label>
+            </div>
+          </article>
+          <article class="direction" id="route-f">
+            <div class="direction-heading"><span class="route-letter">F / CLEAR &amp; PRACTICAL</span><h3>Clear guidance</h3><p>Orderly. Helpful. Transparent.</p></div>
+            <div class="concept concept-f" role="img" aria-label="Clear guidance concept: white, deep slate and teal with structured humanist typography and a compass logo.">
+              <div class="wordmark"><svg viewBox="0 0 42 42" aria-hidden="true"><path d="M21 4v6m0 22v6M4 21h6m22 0h6" stroke="currentColor" stroke-width="2.5"/><circle cx="21" cy="21" r="11" fill="none" stroke="currentColor" stroke-width="2"/><path d="m25 14-1 10-10 4 4-10z" fill="#007A82"/></svg><span>Dental Match</span></div>
+              <div class="sample-kicker">Implants &amp; major dental care</div>
+              <div class="sample-title">Know your<br>next step.</div>
+              <p class="sample-description">From clinic matching to funding questions and appointments, we help you understand what comes next.</p>
+              <span class="sample-cta">Find my match <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div class="signature"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="4" y="4" width="92" height="92" rx="4" fill="#E2F4F5"/><path d="M50 14v11m0 50v11M14 50h11m50 0h11" stroke="#173443" stroke-width="3"/><circle cx="50" cy="50" r="23" fill="none" stroke="#173443" stroke-width="2"/><path d="m59 33-3 24-23 11 11-23z" fill="#007A82"/></svg><p>A simple compass.<br>Clarity and direction when there’s a lot to consider.</p></div>
+              <div class="concept-caption">Exploratory homepage styling / draft copy</div>
+            </div>
+            <div class="direction-details">
+              <div class="palette" aria-label="Clear guidance palette">
+                <figure><div class="swatch" style="background:#173443"></div><figcaption>Slate<br><code>#173443</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#007A82"></div><figcaption>Teal<br><code>#007A82</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#E2F4F5"></div><figcaption>Ice mint<br><code>#E2F4F5</code></figcaption></figure>
+                <figure><div class="swatch" style="background:#FFFFFF"></div><figcaption>White<br><code>#FFFFFF</code></figcaption></figure>
+              </div>
+              <dl>
+                <div class="detail"><dt>Typography</dt><dd><span class="type-sample" style="font-family:'IBM Plex Sans',sans-serif;font-weight:600">Understand your options.</span>IBM Plex Sans headlines + DM Sans body.</dd></div>
+                <div class="detail"><dt>Voice</dt><dd>“Here’s what happens next, and what you can ask before deciding.”</dd></div>
+                <div class="detail"><dt>Photography direction</dt><dd>Approachable patient and coordinator portraits, with clear, uncluttered compositions.</dd></div>
+                <div class="detail"><dt>Why it fits</dt><dd>Gives cost, funding and appointment questions a clear place in the experience.</dd></div>
+              </dl>
+              <p class="watch">Design challenge: pair the structured layout with human imagery so the service feels personal.</p>
+              <label class="select-direction"><input type="radio" name="direction" value="F - Clear guidance">Choose Clear guidance</label>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="references" class="section" aria-labelledby="references-title">
+        <div class="section-head"><h2 id="references-title">Real brands to react to</h2><p>Look at the feeling, the type and the first step each page asks people to take.</p></div>
+        <div class="references">
+          <article class="reference card">
+            <a class="reference-image" href="assets/tend.png" target="_blank" rel="noopener" aria-label="View the Tend homepage screenshot at full size"><img src="assets/tend.png" alt="Screenshot of Tend’s dental homepage showing rounded portrait frames, soft colours and reassurance-led messaging." loading="lazy" width="1440" height="1000"></a>
+            <div class="card-body"><div class="ref-type">Dental care / United States</div><h3>Tend</h3><p><strong>My reading:</strong> personal, welcoming and open about dental nerves. Notice the portraits and language that addresses how patients feel.</p><a class="ref-link" href="https://www.hellotend.com/site/home" target="_blank" rel="noopener">Explore Tend ↗</a></div>
+          </article>
+          <article class="reference card">
+            <a class="reference-image" href="assets/hotdoc.png" target="_blank" rel="noopener" aria-label="View the HotDoc homepage screenshot at full size"><img src="assets/hotdoc.png" alt="Screenshot of HotDoc’s Australian healthcare homepage showing a clear heading and provider and location search fields." loading="lazy" width="1440" height="1000"></a>
+            <div class="card-body"><div class="ref-type">Healthcare booking / Australia</div><h3>HotDoc</h3><p><strong>My reading:</strong> useful, familiar and clear. Notice how the search makes the next action obvious from the first screen.</p><a class="ref-link" href="https://english.hotdoc.com.au/" target="_blank" rel="noopener">Explore HotDoc ↗</a></div>
+          </article>
+          <article class="reference card">
+            <a class="reference-image" href="assets/dental99.png" target="_blank" rel="noopener" aria-label="View the Dental 99 homepage screenshot at full size"><img src="assets/dental99.png" alt="Screenshot of Dental 99’s Australian dental homepage with bright colours, a prominent heading and approachable styling." loading="lazy" width="1440" height="1000"></a>
+            <div class="card-body"><div class="ref-type">Dental care / Australia</div><h3>Dental 99</h3><p><strong>My reading:</strong> bright, direct and accessible. A useful contrast for deciding how colourful you want Dental Match to be.</p><a class="ref-link" href="https://dental99.com.au/" target="_blank" rel="noopener">Explore Dental 99 ↗</a></div>
+          </article>
+        </div>
+        <p class="source-note">Screenshots captured from the linked official websites on 2 October 2026. These are visual references; the directions above are original explorations.</p>
+      </section>
+      <section id="feedback" class="feedback" aria-labelledby="feedback-title">
+        <div class="feedback-grid">
+          <div>
+            <div class="eyebrow">Your instinct is useful</div>
+            <h2 id="feedback-title" style="margin-top:10px">Which feels like Dental Match?</h2>
+            <p>Choose a direction above, or choose a blend below. Tell me what you like about the colours, type or tone.</p>
+            <ol class="steps-copy"><li>Choose the feeling and refine the palette.</li><li>Explore a few logo options in that direction.</li><li>Build the brand guidelines from the chosen identity.</li></ol>
+            <p>For the next round, name your two favourites and what you’d combine: colours, typography, logo style or tone.</p>
+          </div>
+          <div class="feedback-fields">
+            <label class="mix-label"><input type="radio" name="direction" value="A blend of directions">I prefer a blend of the directions</label>
+            <div class="selected-status" id="selected-status" aria-live="polite">No direction selected yet.</div>
+            <div><label for="preference-notes">What do you like, and what would you change?</label><textarea id="preference-notes" name="notes" placeholder="For example: My favourites are A and D. I like D’s familiar feel, A’s colours, and F’s clarity."></textarea></div>
+            <div class="feedback-actions"><button class="btn btn-primary" type="submit">Queue my feedback</button><button class="btn btn-outline" type="button" id="copy-answer">Copy my feedback</button></div>
+            <div class="form-message" id="form-message" role="status"></div>
+            <p style="font-size:11px;margin:0;opacity:.7">In Lavish, queue your feedback, then press Send to Agent. You can also reply in the chat.</p>
+            <div class="reply-preview" id="reply-preview" hidden></div>
+          </div>
+        </div>
+      </section>
+    </form>
+  </main>
+  <footer class="shell"><span>Dental Match / Inspiration stage / Draft colours, marks and copy</span><span>Neutral DaisyUI review layout; original concepts created from your brief.</span></footer>
+  <script>
+    const form = document.getElementById('brand-form');
+    const status = document.getElementById('selected-status');
+    const message = document.getElementById('form-message');
+    const preview = document.getElementById('reply-preview');
+    const names = { A: 'A - Warm reassurance', B: 'B - Friendly clarity', C: 'C - Quiet confidence', D: 'D - Grounded care', E: 'E - Positive momentum', F: 'F - Clear guidance' };
+    form.addEventListener('change', event => {
+      if (event.target.name !== 'direction') return;
+      const choice = new FormData(form).get('direction');
+      document.querySelectorAll('.direction').forEach(card => card.classList.toggle('is-selected', names[card.id.slice(-1).toUpperCase()] === choice));
+      status.textContent = 'Selected: ' + choice + '. Feedback has not been queued.';
+      message.textContent = '';
+      preview.hidden = true;
+    });
+    document.getElementById('preference-notes').addEventListener('input', () => {
+      const choice = new FormData(form).get('direction');
+      status.textContent = choice ? 'Selected: ' + choice + '. Updated feedback has not been queued.' : 'Your notes have not been queued.';
+      message.textContent = '';
+      preview.hidden = true;
+    });
+    function getFeedback() {
+      const data = new FormData(form);
+      const direction = data.get('direction');
+      const notes = String(data.get('notes') || '').trim();
+      if (!direction && !notes) return null;
+      return { direction, notes, text: 'Dental Match brand feedback\nDirection: ' + (direction || 'Undecided') + '\nPreferences: ' + (notes || 'Please explore this direction further.') };
+    }
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const feedback = getFeedback();
+      if (!feedback) { message.textContent = 'Choose a direction or add a note first.'; return; }
+      if (window.lavish && typeof window.lavish.queuePrompt === 'function') {
+        window.lavish.queuePrompt(feedback.text, { tag: 'brand-direction', text: 'Dental Match: ' + (feedback.direction || 'Brand notes'), element: document.getElementById('feedback'), selector: '#feedback', queueKey: 'dental-match-brand-direction', data: { question: 'brand-direction', direction: feedback.direction, notes: feedback.notes } });
+        message.textContent = 'Feedback queued. Press Send to Agent in the review bar when ready.';
+        status.textContent = 'Queued: ' + (feedback.direction || 'Your brand notes') + '.';
+      } else {
+        preview.textContent = feedback.text;
+        preview.hidden = false;
+        message.textContent = 'Your feedback is ready below. Copy it and paste it into the chat.';
+      }
+    });
+    document.getElementById('copy-answer').addEventListener('click', async () => {
+      const feedback = getFeedback();
+      if (!feedback) { message.textContent = 'Choose a direction or add a note first.'; return; }
+      try { await navigator.clipboard.writeText(feedback.text); message.textContent = 'Feedback copied. Paste it into the chat whenever you’re ready.'; }
+      catch { preview.textContent = feedback.text; preview.hidden = false; message.textContent = 'Select and copy the feedback below, then paste it into the chat.'; }
+    });
+  </script>
+</body>
+</html>
