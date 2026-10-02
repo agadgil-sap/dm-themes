@@ -1,0 +1,194 @@
+[
+  {
+    "id": "L01",
+    "name": "The embrace",
+    "family": "People",
+    "idea": "Two figures become a single sheltering shape. Connection through care, with a smile in the space between.",
+    "viewBox": "0 0 96 96",
+    "art": "<circle cx=\"30\" cy=\"24\" r=\"9\"/><circle cx=\"66\" cy=\"24\" r=\"9\"/><path d=\"M13 42C26 35 41 43 48 59C55 43 70 35 83 42C81 65 65 81 48 81C31 81 15 65 13 42ZM25 53C30 66 39 71 48 71C57 71 66 66 71 53C61 53 55 62 48 69C41 62 35 53 25 53Z\" fill-rule=\"evenodd\"/>"
+  },
+  {
+    "id": "L02",
+    "name": "Face to face",
+    "family": "People",
+    "idea": "Two sculpted profiles face one another. A quieter, more adult interpretation of meeting.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M40 14C22 14 12 29 12 48C12 67 24 82 40 82V66H34C29 66 27 62 29 57L34 51L29 47C26 44 28 40 34 39L40 38Z\"/><path d=\"M56 14C74 14 84 29 84 48C84 67 72 82 56 82V66H62C67 66 69 62 67 57L62 51L67 47C70 44 68 40 62 39L56 38Z\"/>"
+  },
+  {
+    "id": "L03",
+    "name": "A helping hand",
+    "family": "People",
+    "idea": "A pair of open hands creates a heart. A more personal expression of reassurance and support.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M10 55L23 40L38 51L48 62L58 51L73 40L86 55L67 76Q48 90 29 76Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M30 49L27 33C26 21 40 17 48 29C56 17 70 21 69 33L66 49M38 51L48 43L58 51\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L04",
+    "name": "Linked together",
+    "family": "Connection",
+    "idea": "Two rounded links interlock. Matching is the main message, with no literal tooth or face.",
+    "viewBox": "0 0 96 96",
+    "art": "<rect x=\"13\" y=\"24\" width=\"44\" height=\"44\" rx=\"18\" transform=\"rotate(-35 35 46)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9\"/><path d=\"M48 63L55 73C61 82 73 84 82 77C91 70 93 58 86 49L77 36C70 27 58 25 49 32L41 38\" transform=\"translate(-5 -4)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L05",
+    "name": "The meeting ribbon",
+    "family": "Connection",
+    "idea": "One flowing ribbon brings two loops together. Continuous support through a flowing, abstract match.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M48 48C32 19 12 21 12 48C12 75 32 77 48 48C64 19 84 21 84 48C84 75 64 77 48 48Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L06",
+    "name": "The right fit",
+    "family": "Connection",
+    "idea": "Two shaped pieces fit together. A bold, compact expression of finding the right match.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M13 22Q13 15 20 15H43V34C55 28 61 35 61 43C61 51 55 56 43 51V80H20Q13 80 13 73Z\"/><path d=\"M53 15H76Q83 15 83 22V73Q83 80 76 80H53V60C65 61 72 53 72 43C72 33 65 25 53 25Z\"/>"
+  },
+  {
+    "id": "L07",
+    "name": "The DM signature",
+    "family": "Letterforms",
+    "idea": "A D and M share a vertical stroke. A compact signature built from the business name.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M14 76V20H29C56 20 62 76 29 76ZM49 76V20L65 43L81 20V76\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L08",
+    "name": "The smiling d",
+    "family": "Letterforms",
+    "idea": "A smile sits inside a lowercase d. Dental recognition through a letter rather than a tooth.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M70 15V57C70 73 59 82 44 82C29 82 18 72 18 57C18 42 29 32 44 32C59 32 70 42 70 57\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9\" stroke-linecap=\"round\"/><path d=\"M31 59Q44 75 57 59\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L09",
+    "name": "Meet at the M",
+    "family": "Letterforms",
+    "idea": "An M made from two converging strokes. Confident, simple and less playful than a smile symbol.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M14 78V24Q14 17 22 17H27L48 47L69 17H74Q82 17 82 24V78H69V40L48 69L27 40V78Z\"/>"
+  },
+  {
+    "id": "L10",
+    "name": "An open door",
+    "family": "Pathways",
+    "idea": "An open arch welcomes the next step. Reassuring without promising a particular outcome.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M18 80V43C18 3 78 3 78 43V63\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M35 80V42C35 21 62 21 62 42V56M18 80C38 80 54 77 69 63\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"76\" r=\"6\"/>"
+  },
+  {
+    "id": "L11",
+    "name": "A way through",
+    "family": "Pathways",
+    "idea": "A winding route joins two points. A distinctive symbol for guidance through a complex decision.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M20 75C20 52 72 64 72 25M35 75C35 63 84 70 84 25\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"20\" cy=\"23\" r=\"8\"/><path d=\"M20 41V51\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L12",
+    "name": "One step forward",
+    "family": "Pathways",
+    "idea": "Three soft steps lead upwards. Practical progress at a manageable pace.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M12 72V63Q12 55 20 55H29V72ZM36 62V43Q36 35 44 35H53V62ZM60 49V23Q60 15 68 15H77V49Z\"/><path d=\"M15 82Q48 94 81 57\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L13",
+    "name": "A tooth, rethought",
+    "family": "Dental",
+    "idea": "An open, ribbon-like tooth. The most recognisably dental option, with a lighter silhouette.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M48 25C28 9 13 19 19 40L27 72C29 83 35 83 39 70L48 49L57 70C61 83 67 83 69 72L77 40C83 19 68 9 48 25Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M35 36Q48 49 61 36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L14",
+    "name": "Built on support",
+    "family": "Dental",
+    "idea": "A simplified implant form with a welcoming crown. A more treatment-focused identity.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M18 23Q48 7 78 23L71 45H25Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linejoin=\"round\"/><path d=\"M35 46V72L48 86L61 72V46M32 56H64M34 66H62M40 76H56\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L15",
+    "name": "The hidden tooth",
+    "family": "Dental",
+    "idea": "A tooth appears in the negative space of a solid disc. Bold and immediately dental.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M48 7A41 41 0 1 1 48 89A41 41 0 1 1 48 7ZM48 30C34 18 23 26 28 42L34 65C36 74 40 71 42 63L48 47L54 63C56 71 60 74 62 65L68 42C73 26 62 18 48 30Z\" fill-rule=\"evenodd\"/>"
+  },
+  {
+    "id": "L16",
+    "name": "A conversation",
+    "family": "Conversation",
+    "idea": "Two speech bubbles overlap. The service starts with listening and an introduction.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M15 21H52Q64 21 64 33V47Q64 59 52 59H35L17 71V56Q9 53 9 44V33Q9 21 15 21Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5.5\" stroke-linejoin=\"round\"/><path d=\"M73 38Q86 38 86 50V64Q86 76 74 76V86L59 76H49Q40 76 40 68\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L17",
+    "name": "Listen first",
+    "family": "Conversation",
+    "idea": "An open pair of quotation marks. A quiet identity centred on the patient’s story.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M42 20V35C29 35 25 42 25 49H42V76H12V51C12 30 23 20 42 20ZM84 20V35C71 35 67 42 67 49H84V76H54V51C54 30 65 20 84 20Z\"/>"
+  },
+  {
+    "id": "L18",
+    "name": "An introduction",
+    "family": "Conversation",
+    "idea": "A matching M lives inside a dialogue shape. A compact bridge between name and service.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M18 16H78Q87 16 87 25V63Q87 72 78 72H44L19 86V72H18Q9 72 9 63V25Q9 16 18 16ZM25 58V32L48 51L71 32V58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L19",
+    "name": "A new morning",
+    "family": "Renewal",
+    "idea": "A sunrise grows out of a smile. Hope and a fresh start, with no literal face.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M24 58A24 24 0 0 1 72 58ZM14 66Q48 90 82 66\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M48 11V20M18 22L25 29M78 22L71 29M8 47H17M88 47H79\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L20",
+    "name": "The unfold",
+    "family": "Renewal",
+    "idea": "Four folded shapes turn around an open centre. An abstract identity for possibility and change.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M48 10C65 10 76 20 80 35L54 42ZM86 48C86 65 76 76 61 80L54 54ZM48 86C31 86 20 76 16 61L42 54ZM10 48C10 31 20 20 35 16L42 42Z\"/>"
+  },
+  {
+    "id": "L21",
+    "name": "Room to grow",
+    "family": "Renewal",
+    "idea": "Two asymmetric wings lift from a shared centre. Expressive, organic and more optimistic.",
+    "viewBox": "0 0 96 96",
+    "art": "<path d=\"M46 70C13 65 4 40 15 18C36 22 48 39 46 70ZM50 70C82 61 93 43 82 26C62 25 47 45 50 70Z\"/><path d=\"M26 78Q48 88 72 73\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L22",
+    "name": "A smile in the name",
+    "family": "Wordmarks",
+    "idea": "The name carries the identity, with a smile beneath match. Friendly without a separate symbol.",
+    "viewBox": "0 0 340 130",
+    "art": "<text x=\"170\" y=\"52\" text-anchor=\"middle\" font-family=\"Manrope,Arial,sans-serif\" font-size=\"32\" font-weight=\"500\" letter-spacing=\"-1\">dental</text><text x=\"170\" y=\"96\" text-anchor=\"middle\" font-family=\"Manrope,Arial,sans-serif\" font-size=\"49\" font-weight=\"800\" letter-spacing=\"-2\">match</text><path d=\"M107 111Q170 132 233 111\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "id": "L23",
+    "name": "Connection lettering",
+    "family": "Wordmarks",
+    "idea": "Custom rounded strokes give match its own rhythm. A distinctive lettering-led direction.",
+    "viewBox": "0 0 360 150",
+    "art": "<text x=\"180\" y=\"35\" text-anchor=\"middle\" font-family=\"Manrope,Arial,sans-serif\" font-size=\"26\" font-weight=\"500\" letter-spacing=\"2\">dental</text><path d=\"M20 118V80Q20 59 40 59Q60 59 60 80V118M60 80Q60 59 80 59Q100 59 100 80V118M159 118V82Q159 60 137 60Q115 60 115 86Q115 112 137 112Q159 112 159 86M187 39V99Q187 118 203 118M174 65H206M259 67C226 43 211 72 218 98C223 117 244 122 260 108M281 118V39M281 84Q281 59 301 59Q321 59 321 84V118\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"11\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "id": "L24",
+    "name": "The considered match",
+    "family": "Wordmarks",
+    "idea": "A refined serif match paired with a simple dental. A more grown-up identity for major care decisions.",
+    "viewBox": "0 0 340 140",
+    "art": "<text x=\"170\" y=\"49\" text-anchor=\"middle\" font-family=\"Manrope,Arial,sans-serif\" font-size=\"27\" font-weight=\"500\" letter-spacing=\"6\">DENTAL</text><text x=\"170\" y=\"109\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"67\" font-weight=\"700\" font-style=\"italic\" letter-spacing=\"-3\">match</text>"
+  }
+]
