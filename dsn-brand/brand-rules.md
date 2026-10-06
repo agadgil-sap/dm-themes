@@ -1,0 +1,392 @@
+# Dental Support Network brand rules
+
+v0.1 / Working reference / 6 October 2026
+
+C1 and N01 are proposed defaults pending final selection.
+
+## 01 / Brand foundation
+
+Quiet confidence, developed for a clinic audience.
+
+### The business
+
+Dental Support Network is a B2B brand for Australian clinic owners and practice managers.
+Its starting proposition is finding, qualifying and booking implant patients for clinics.
+
+### Positioning
+
+A considered patient acquisition partner, supporting clear conversations, a useful handover and a coordinated next step into a clinic consultation.
+
+### Character
+
+Composed, human, precise and dependable.
+Explain the work in concrete terms.
+Earn confidence with evidence and useful detail.
+
+### Relationship to Dental Match
+
+Dental Match speaks to patients; Dental Support Network speaks to clinics.
+Keep each brand’s name, lead journey, contact details and audience clear.
+
+| Status | Meaning |
+| --- | --- |
+| Established inputs | Dental Support Network; B2B; Australia; original Theme C; founder-supplied hero message. |
+| Working baseline | C1 / Established partner and N01 / The connection. A documented default pending final selection. |
+| Explorations | C2, C3 and N02–N12 remain alternatives. Do not combine logo families in one experience. |
+| Needs business input | Qualification criteria, service scope, prices, integrations, hours, response times, contact details and results claims. |
+
+
+## 02 / Logo & identity
+
+Two open brackets. One considered connection.
+
+### N01 / The connection
+
+The brackets translate original Theme C into a compact signature.
+Two sides share a small brass connection.
+This suggests support and coordination without a literal tooth.
+
+### Primary lockup
+
+Use the supplied horizontal logo for navigation, proposals and partner materials.
+Display the full name on first contact.
+Use a symbol-only asset after the brand name is established.
+
+### Artwork status
+
+The supplied SVGs are concept assets.
+Symbols use vector paths; wordmarks use editable live text with Lora and DM Sans fallbacks.
+Final production masters need approved geometry and outlined lettering.
+
+| Use | Asset |
+| --- | --- |
+| Light background | n01-lockup-colour.svg |
+| Navy background | n01-lockup-reverse.svg |
+| One ink | n01-lockup-mono.svg |
+| Avatar / favicon | n01-mark-colour.svg |
+
+
+## 03 / Logo application
+
+Keep the signature stable and give it room.
+
+| Rule | Working specification |
+| --- | --- |
+| Clear space | Reserve 20 units around the 80-unit symbol frame, one quarter of the symbol frame on every side. Around a lockup use one quarter of its rendered symbol size. |
+| Digital minimum | Symbol: 24 px frame, preferably 32–48 px in UI. Full lockup: 240 px wide. Smaller headers should use the symbol beside readable HTML text. |
+| Print minimum | Proposed lockup minimum 45 mm wide; symbol minimum 8 mm. Proof on the actual material before production. |
+| Colour / background | Colour on white or ice; reverse on navy; monochrome for single-ink output. Use a solid quiet panel on photography. |
+| Scaling | Preserve aspect ratio and viewBox. Do not stretch, rotate, crop, redraw, change stroke proportions, add effects or recolour the connection. |
+| Alternatives | N02–N12 are review options. A final selection requires updating the guide, master assets, favicon, specification and defaults together. |
+
+### Do
+
+Use the supplied asset, a readable full name, consistent clear space and a restrained background.
+Check at the real display size.
+
+### Avoid
+
+Mixing concepts, gradients within the mark, decorative shadows, low-contrast placement and replacing the full name with DSN on first contact.
+
+
+## 04 / Colour system
+
+Navy carries the brand. Brass adds a measured accent.
+
+| Role | Use |
+| --- | --- |
+| Navy | Headlines, primary buttons, core logo ink and C1 hero backgrounds. |
+| White / ice | Readable page backgrounds, cards and alternate surfaces. |
+| Mist | Secondary text on navy, quiet diagram lines and accent surfaces. Avoid mist body text on white. |
+| Brass | Small decorative details and the connection line. Suggested accent area below 5%. Do not use for normal text on light backgrounds. |
+| Slate | Secondary body text on white and ice. Do not reduce opacity until small text becomes faint. |
+| Line | Card borders and dividers. Use slate for form boundaries that need sufficient contrast. |
+| Error / success | Proposed functional extensions, with explicit wording and an icon where useful. Do not rely on colour alone. |
+
+| Text / background | Contrast | Normal text |
+| --- | --- | --- |
+| navy / white | 12.65:1 | Passes 4.5:1 |
+| navy / ice | 11.29:1 | Passes 4.5:1 |
+| slate / white | 5.81:1 | Passes 4.5:1 |
+| slate / ice | 5.19:1 | Passes 4.5:1 |
+| mist / navy | 7.82:1 | Passes 4.5:1 |
+| brass / navy | 5.30:1 | Passes 4.5:1 |
+| brass / white | 2.39:1 | Does not pass 4.5:1 |
+| error / white | 6.98:1 | Passes 4.5:1 |
+| success / white | 6.93:1 | Passes 4.5:1 |
+
+
+## 05 / Typography
+
+Editorial headlines. Practical interfaces.
+
+| Role | Specification | Behaviour |
+| --- | --- | --- |
+| Hero | Lora 400, 48–60 px desktop, 30–38 px phone. | Line height 1.14, tracking -0.02em. One dominant heading. |
+| Section heading | Lora 500, 32–40 px desktop, 28–32 px phone. | Line height 1.2. Avoid long all-caps text. |
+| Card heading | Lora 500, 22–26 px. | Line height 1.25. Keep concise. |
+| Body | DM Sans 400, 16 px. | Line height 1.6, approximately 45–75 characters per line. |
+| Buttons / fields | DM Sans 500–600, 14–16 px. | Sentence case; essential form text at least 16 px. |
+| Eyebrows | DM Sans 600, 11–12 px. | Short uppercase text, tracking 0.12–0.16em. No critical long copy. |
+| Fallbacks | Lora → Georgia → serif; DM Sans → Arial → sans-serif. | Load only needed weights with font-display: swap. |
+
+### Font distribution
+
+Fonts are referenced through their official Google Fonts distributions.
+The local HTML uses embedded fonts when available, otherwise named fallbacks.
+SVG wordmarks require installed fonts until lettering is outlined.
+Preserve font licences when distributing font files.
+
+
+## 06 / Layout & spacing
+
+One consistent rhythm across websites and documents.
+
+| Pattern | Working standard |
+| --- | --- |
+| Spacing | 4, 8, 12, 16, 24, 32, 48, 64 and 80 px. Use this scale for gaps and padding. |
+| Container | Maximum content width 1200 px; gutters 48 px desktop, 32 px tablet, 20–24 px phone. |
+| Sections | 64–80 px vertical desktop, 40–48 px mobile. Related elements should sit closer than separate sections. |
+| Cards | 24–32 px desktop padding, 20–24 px mobile. Keep padding identical in a repeated group. |
+| Grids | Use minmax(0, 1fr) and min-width: 0 on nested children. Collapse three columns to two and one as content requires. |
+| Corners | 3 px buttons, 6 px cards, 8–10 px framed views. Avoid rounded pills as the dominant layout style. |
+| Borders / shadow | 1 px line borders; soft low-opacity navy shadow only where useful. Hierarchy must work without shadow. |
+| Breakpoints | Mobile first; proposed thresholds 700 and 1000 px. Check real content at 320, 390, 820 and 1440 px. |
+| Hero | Default C1: navy split hero, a clear headline, one primary CTA and an explanatory process illustration. Stack on mobile. |
+| Motion | 120–180 ms understated transitions. Honour reduced motion. Avoid parallax, autoplay and decorative movement. |
+
+### Content order
+
+Explain the service first, show Find / Qualify / Book, describe the clinic handover, answer questions and offer one clear next step.
+
+### Mobile
+
+Allow natural heading wraps.
+Remove forced desktop line breaks on phones.
+Check the longest field labels, headings and buttons.
+
+
+## 07 / Reusable components
+
+Use one component family, with deliberate states.
+
+| Component | Rules |
+| --- | --- |
+| Header | Full brand name, compact symbol, 3–5 links maximum and one enquiry action. A mobile menu needs keyboard support and aria-expanded. |
+| Primary button | Navy/white on light; ice/navy on dark. At least 44×44 px target, preferably 48 px high. Use a clear action, such as Discuss your clinic. |
+| Secondary action | Transparent, navy text and slate border on light. Distinct hover and visible focus. |
+| Links | Underline links in body copy. Navigation can omit underline. Never use colour as the only indicator. |
+| Cards | Concise title, useful support text, 24 px padding and a 1 px line border. Avoid redundant actions in every card. |
+| Process | Number, short verb, explanation and handover/output. Use Find → Qualify → Book consistently. |
+| FAQ | Use native details/summary or an accessible disclosure. Keep qualification wording accessible and easy to find. |
+| Statuses | Plain-language message and next step. Announce dynamic results appropriately; do not rely on a colour change. |
+| Icons | Simple line icons, 1.5–2 px stroke at 24 px. Hide decorative icons and label meaningful icon-only controls. |
+| Footer | Full brand, actual approved contact/legal links. Do not fabricate an ABN, phone number, address or accreditation. |
+
+
+## 08 / Forms & journeys
+
+Make the next step clear and collect only useful information.
+
+- Use visible labels, required/optional wording and relevant examples. Placeholders never replace labels.
+- Start with clinic name, contact name, work email and topic. Add phone only when needed and explain why. Do not collect patient medical information in a clinic partnership form.
+- Production autocomplete tokens should reflect name, organisation, email and telephone. Inputs should be at least 48 px high with 16 px text.
+- Use a slate boundary and a 3 px focus outline. Explain errors in text, associate hints/errors using aria-describedby and apply aria-invalid where needed.
+- Validate on submit and after relevant interaction. Preserve answers on failure. Focus an error summary or the first invalid field.
+- Include idle, editing, invalid, submitting, confirmed success and failure-with-retry states. Prevent duplicate submission.
+- Show success only after the server confirms receipt. State the real next step and an approved response expectation.
+- For multiple steps, show progress, support back navigation and preserve entries in memory. Keep marketing consent separate where applicable.
+- Never send names, emails, phone numbers, health details or field contents to analytics or session replay. Track start, step complete, error and confirmed receipt as distinct non-sensitive events.
+- Label interactive demos honestly. A demo confirmation must state that no enquiry or booking was sent.
+
+
+## 09 / Voice & messaging
+
+Calm authority. Specific actions. Human conversations.
+
+### Core proposition
+
+We find, qualify and book implant patients for clinics.
+
+### Supporting message
+
+From the first enquiry to a booked consultation, we handle the conversations that help patients take the next step with your clinic.
+
+### Writing style
+
+Clear, measured and practical.
+Use Australian English: enquiry, colour, organisation.
+Speak to clinic owners and practice managers.
+Reassure through useful detail and clear next actions.
+
+| Prefer | Avoid |
+| --- | --- |
+| We coordinate the next step with your clinic. | We guarantee a full appointment book. |
+| Understand the patient’s goals and readiness. | Every lead is clinically qualified. |
+| Give your team useful context for the consultation. | Fully vetted implant candidates. |
+| Discuss your clinic. | Unlock explosive growth now. |
+| Find, qualify and book. | Vague end-to-end solutions or leads, leads, leads. |
+| Your dentist assesses clinical suitability. | Marketing copy that diagnoses, guarantees eligibility or promises treatment outcomes. |
+
+### What qualify means
+
+Qualification means an agreed enquiry and booking process.
+It is not a clinical diagnosis.
+The clinic’s dentist determines treatment suitability.
+Explain this near the process and in FAQs.
+
+
+## 10 / Imagery & graphics
+
+Show people and process with restraint.
+
+### Photography
+
+Prefer real clinic teams, calm consultation conversations and credible clinical environments.
+Use natural light and grounded expressions.
+Obtain permission for identifiable people and patient imagery.
+
+### Avoid
+
+Graphic procedures, exaggerated perfect smiles, generic handshake stock, fabricated case studies, synthetic testimonials and unapproved before-and-after photographs.
+
+### Illustration
+
+Use simple SVG lines in navy, mist and brass.
+Explain enquiry, conversation and appointment.
+Keep meaningful diagrams labelled and accessible.
+
+### Composition
+
+One clear subject and generous negative space.
+Place text on a solid panel when contrast is uncertain.
+Avoid heavy gradients, ornamental 3D graphics and busy backgrounds.
+
+
+## 11 / Applications
+
+Keep the identity consistent across channels.
+
+| Medium | Specification |
+| --- | --- |
+| Website / landing page | C1 default, full name in header, focused hero and one primary CTA. Show process, scope, FAQs and an approved enquiry path. |
+| Social profile | N01 symbol on navy or ice with safe space for circular cropping. Full profile name: Dental Support Network. |
+| Social / paid creative | One message, one visual, one CTA. Suggested 1080×1080 and 1080×1350 templates. Check current platform safe areas. Lead with the clinic proposition. |
+| Presentation | 16:9 canvas. Navy title slide and ice content slides. Lora headings, DM Sans body. One central message per slide; source evidence and label sample numbers. |
+| Proposal / one-pager | A4 format, headline, Find / Qualify / Book, agreed scope and next action. Navy text and readable type; avoid tiny brass copy. |
+| Email | Important content as live text, compact linked logo and one clear next action. Georgia / Arial fallback where custom fonts are not supported. |
+| Email signature | Name, role, approved contact details and compact logo. No fabricated awards, accreditations or banners. |
+| Forms | Reuse input, label, focus, error and success components. Separate clinic enquiries from Dental Match patient journeys. |
+| Print | Approved vector masters with outlined type. Convert colours for the print process and proof the result; hex is not a certified print specification. |
+
+
+## 12 / Accessibility & claims
+
+A brand should work for everyone who uses it.
+
+- Aim for WCAG 2.2 AA in production. Normal text needs 4.5:1 contrast, large text 3:1, and meaningful UI boundaries/focus at least 3:1 against adjacent colours.
+- Use one H1, logical heading order, landmarks, a skip link, useful alt text and accessible names for icon-only controls.
+- Check keyboard navigation. Dialogs need an accessible name, sensible focus, Escape support and restored focus on close.
+- Check 200% zoom and 320 CSS px reflow. Only deliberate, labelled data regions should scroll horizontally.
+- Prefer 44×44 px targets and 16 px essential body/form text. Do not hide important copy in small captions.
+- Honour reduced motion. Avoid autoplay audio, flashing and unnecessary animation.
+- Publish results, prices, endorsements, certifications and clinic/patient counts only with approved evidence and permission.
+- Do not imply clinical credentials, treatment eligibility, funding access, partnerships, performance guarantees or response-time commitments without support.
+- Label prototypes and sample content conspicuously. A live form needs real receipt handling, an approved privacy notice and an agreed follow-up owner.
+
+
+## 13 / AI agent reference
+
+Readable rules, structured tokens and a reusable brief.
+
+### Read before creating
+
+Read the Markdown rules, JSON specification and CSS tokens from the same version.
+Check the working status and asset paths before creating pages, assets, forms or presentations.
+
+| Sequence | Requirement |
+| --- | --- |
+| 1 / Read | Confirm the name, audience, default theme, logo and version. |
+| 2 / Reuse | Prefer existing UI components. Map colours, typography and spacing to the documented tokens. |
+| 3 / Implement | Use semantic HTML and complete interaction states. Do not silently change the brand default. |
+| 4 / Verify | Inspect desktop and phone output, keyboard use and contrast. Check copy against verified business facts. |
+| 5 / Report | List validation, departures from the guide and unresolved business details. |
+| Conflicts | Current explicit human instructions take priority. Identify conflicts rather than inventing a compromise or replacing approved artwork. |
+
+### Reusable agent brief
+
+Create an asset for Dental Support Network, an Australian B2B patient acquisition brand for clinic owners and practice managers.
+Read brand-rules.md, brand-spec.json and tokens.css before designing.
+Use C1 / Established partner and N01 / The connection as the working baseline, pending final selection.
+Use supplied SVG assets; do not redraw or mix logo families.
+Use Lora headlines and DM Sans body/UI.
+Use navy #1E3549, ice #EDF3F6, white #FFFFFF, mist #B9CFD8 and restrained brass #BCA57A.
+Use navy or slate body text on light backgrounds; avoid light-background brass/mist body text.
+Core message: We find, qualify and book implant patients for clinics.
+Qualification is enquiry and booking qualification; clinical suitability belongs to the clinic’s dentist.
+Use Australian English, concrete actions, 24 px card padding, consistent spacing and responsive layouts.
+Reuse existing components and tokens.
+Do not invent prices, metrics, testimonials, contact details or service commitments.
+Label sample data and demos honestly.
+Check contrast, keyboard use, focus, labels, 320 px reflow and all form states.
+Return the artifact with validation performed and business inputs still needing approval.
+Task: [asset, audience, channel, dimensions, content and interactions].
+
+## 14 / Downloads & local use
+
+A portable reference for designers, developers and AI tools.
+
+### How to use locally
+
+Download and extract the ZIP.
+Open dental-support-network-brand.html in any browser.
+Keep the dsn-brand folder beside it for downloads.
+The standalone guide embeds its illustrations and fonts when available; no server is required.
+
+### For an AI agent
+
+Provide dsn-brand/brand-rules.md and brand-spec.json, plus tokens.css and the relevant SVG assets.
+The kit contains no API credentials or lead data.
+A Markdown-aware tool can use the rules directly.
+
+### Asset limitations
+
+72 SVG files cover 12 concepts, two formats and three colour variants.
+Logos are vector sketches with editable live wordmark text.
+Install the specified fonts or refine and outline approved artwork before external production.
+
+
+## 15 / Governance & checklist
+
+Maintain one working reference.
+
+### Version & approval
+
+v0.1, 6 October 2026.
+C1 and N01 are a working baseline, not a final logo decision.
+The colour/type foundation comes from the original Theme C; detailed application rules are proposed standards.
+
+### Source ownership
+
+Edit scripts/build-dsn-brand.py for the guide and kit.
+Edit .lavish/dental-support-network.html for the exploration.
+Rebuild generated outputs instead of editing generated files manually.
+
+### Next decisions
+
+Choose the final direction and logo.
+Refine and outline wordmark masters, verify service wording, and approve real contact, privacy and operating details before launch.
+
+- Correct name, audience, core message and Australian English.
+- One logo family, correct colours and sufficient clear space.
+- Readable typography, aligned padding and consistent spacing.
+- Clear CTA, functional navigation and complete form states.
+- Accessible focus, contrast, labels and mobile reflow.
+- Evidence for claims; sample content and demos labelled.
+- Guide, JSON, CSS and downloadable kit all match.
+
+
+## Asset paths
+
+Use dsn-brand/n01-lockup-colour.svg, n01-lockup-reverse.svg and n01-mark-colour.svg for the working default.
+The alternative concepts remain exploration-only.

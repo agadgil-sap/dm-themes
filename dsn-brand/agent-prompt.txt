@@ -1,0 +1,16 @@
+Create an asset for Dental Support Network, an Australian B2B patient acquisition brand for clinic owners and practice managers.
+Read brand-rules.md, brand-spec.json and tokens.css before designing.
+Use C1 / Established partner and N01 / The connection as the working baseline, pending final selection.
+Use supplied SVG assets; do not redraw or mix logo families.
+Use Lora headlines and DM Sans body/UI.
+Use navy #1E3549, ice #EDF3F6, white #FFFFFF, mist #B9CFD8 and restrained brass #BCA57A.
+Use navy or slate body text on light backgrounds; avoid light-background brass/mist body text.
+Core message: We find, qualify and book implant patients for clinics.
+Qualification is enquiry and booking qualification; clinical suitability belongs to the clinic’s dentist.
+Use Australian English, concrete actions, 24 px card padding, consistent spacing and responsive layouts.
+Reuse existing components and tokens.
+Do not invent prices, metrics, testimonials, contact details or service commitments.
+Label sample data and demos honestly.
+Check contrast, keyboard use, focus, labels, 320 px reflow and all form states.
+Return the artifact with validation performed and business inputs still needing approval.
+Task: [asset, audience, channel, dimensions, content and interactions].
