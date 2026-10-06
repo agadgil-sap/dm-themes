@@ -1,4 +1,60 @@
-# Dental Match website variations
+# Dental Match & Dental Support Network
+
+Published brand explorations, website prototypes and brand-reference assets for the patient-facing Dental Match brand and the B2B Dental Support Network brand.
+
+## Published pages
+
+| Page | Link |
+| --- | --- |
+| Dental Match website, with three variations | [Open website](https://agadgil-sap.github.io/dm-themes/) |
+| Dental Match website critique and visual review | [Open review](https://agadgil-sap.github.io/dm-themes/dental-match-website-review.html) |
+| Dental Match original six themes, including Theme C | [Open theme board](https://agadgil-sap.github.io/dm-themes/dental-match-inspiration.html) |
+| Dental Match logo exploration, page 1 | [Open first 24 logos](https://agadgil-sap.github.io/dm-themes/dental-match-logo-exploration.html) |
+| Dental Match logo exploration, page 2 | [Open next 24 logos](https://agadgil-sap.github.io/dm-themes/dental-match-logo-exploration-page-2.html) |
+| Dental Support Network website and logo exploration | [Open three themes and twelve logos](https://agadgil-sap.github.io/dm-themes/dental-support-network-exploration.html) |
+| Dental Support Network brand guidelines | [Open brand guide](https://agadgil-sap.github.io/dm-themes/dental-support-network-brand.html) |
+| Dental Support Network downloadable brand kit | [Download ZIP](https://agadgil-sap.github.io/dm-themes/dsn-brand/dsn-brand-kit.zip) |
+
+## Dental Support Network
+
+Dental Support Network is a B2B brand for Australian clinic owners and practice managers.
+Its core message is: **We find, qualify and book implant patients for clinics.**
+The exploration develops original Theme C, Quiet confidence, into three website treatments and twelve logo concepts.
+**C1 / Established partner + N01 / The connection** is the working baseline, pending final selection.
+The enquiry flow is an interactive demo and sends no enquiries.
+
+The [brand guidelines](https://agadgil-sap.github.io/dm-themes/dental-support-network-brand.html) cover fifteen sections, including identity, colour, typography, spacing, reusable components, forms, messaging, imagery, accessibility and AI agent instructions.
+Redbelly was a reference for the guide's structure only; no Redbelly assets or brand rules were copied.
+
+### Downloads and AI references
+
+- [Complete brand kit](https://agadgil-sap.github.io/dm-themes/dsn-brand/dsn-brand-kit.zip): local HTML guide, exploration, 72 SVG variants, font licences and reference files.
+- [Standalone offline HTML guide](https://agadgil-sap.github.io/dm-themes/dsn-brand/brand-guide-offline.html): embedded fonts and illustrations, with online links for additional downloads.
+- [Brand rules / Markdown](https://agadgil-sap.github.io/dm-themes/dsn-brand/brand-rules.md).
+- [Brand specification / JSON](https://agadgil-sap.github.io/dm-themes/dsn-brand/brand-spec.json).
+- [Design tokens / CSS](https://agadgil-sap.github.io/dm-themes/dsn-brand/tokens.css).
+- [Reusable AI agent brief / text](https://agadgil-sap.github.io/dm-themes/dsn-brand/agent-prompt.txt).
+
+Extract the ZIP and open `dental-support-network-brand.html` in a browser; no server is required.
+Keep the `dsn-brand` folder beside the guide for local downloads.
+For AI-assisted work, provide the Markdown rules, JSON specification, CSS tokens and relevant SVG assets.
+SVG wordmarks use editable live text; install Lora and DM Sans or outline the approved lettering before production use.
+
+### Dental Support Network sources
+
+Edit [.lavish/dental-support-network.html](.lavish/dental-support-network.html) for the exploration.
+Edit [scripts/build-dsn-brand.py](scripts/build-dsn-brand.py) and [scripts/dsn-brand-guide.css](scripts/dsn-brand-guide.css) for the brand guide and downloadable kit.
+Export the exploration first, then rebuild the guide and ZIP so the kit includes the latest exploration.
+
+```sh
+lavish-axi export .lavish/dental-support-network.html --out dental-support-network-exploration.html
+python3 scripts/build-dsn-brand.py
+```
+
+The published guide, reference files, SVGs and ZIP are generated outputs.
+Do not edit them manually.
+
+## Dental Match website variations
 
 The selected identity is **L22, the smile wordmark, with B, Friendly Clarity**.
 The current phase is three complete website variations for Australian patients exploring dental implants.
