@@ -3,6 +3,44 @@
 The selected identity is **L22, the smile wordmark, with B, Friendly Clarity**.
 The current phase is three complete website variations for Australian patients exploring dental implants.
 
+## Four booking experiences
+
+Open [the booking site](https://agadgil-sap.github.io/dm-themes/booking/) after the booking branch is merged.
+The portable entry point is [dental-match-booking.html](dental-match-booking.html).
+The [Lavish review](.lavish/dental-match-booking.html) contains the same complete site.
+The existing brand website and its three homepage variations remain available.
+
+- **Visual smile selector:** illustrated answers and one step per screen.
+- **Conversation:** individual questions with editable answer history.
+- **Consultation planner:** the full enquiry in four sections, with conditional funding questions.
+- **Optional secure card:** the visual journey plus an appointment and card setup preview on the clinic route.
+
+Each variation uses the chosen Dental Members Australia question data and the same automatic clinic, team-call or follow-up routing.
+The site includes validation, conditional answers, review and editing, example consultation times, callback preferences, card consent, clinic handoff, FAQs and preview privacy information.
+“Why these versions?” explains the choices and lets reviewers load examples for each outcome.
+
+The routing thresholds are provisional commercial rules, not clinical, lending or super-release decisions.
+This is a complete interactive frontend for review, with no live lead submission, clinic calendar or payment provider connection.
+Use sample details.
+No answers are saved to browser storage or included in URLs.
+Card fields are read-only examples; the site never collects raw card details.
+
+```sh
+python3 booking/build.py
+node --test booking/tests/model.test.cjs website/tests/forms.test.cjs
+python3 -m http.server 4392
+```
+
+In another terminal, run the actual browser journeys:
+
+```sh
+CHROME_DEVTOOLS_AXI_SESSION=dental-booking chrome-devtools-axi run < booking/tests/journeys.js
+```
+
+Set `BOOKING_TEST_URL` to test another HTTP or file entry point.
+Read [booking/README.md](booking/README.md) for routes, decision rules and live integration requirements.
+Edit the booking sources, then run the builder; the three booking HTML entry points are generated outputs.
+
 [Open the live website](https://agadgil-sap.github.io/dm-themes/) and use the three-way toggle at the top to compare them.
 The existing [refinements URL](https://agadgil-sap.github.io/dm-themes/dental-match-ab-refinements.html) also opens the new website.
 The old A+B, B logo and combination controls have been removed from this entry point.
